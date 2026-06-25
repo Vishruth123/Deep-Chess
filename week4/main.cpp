@@ -83,7 +83,7 @@ int main() {
             std::string token;
             iss >> token;
 
-            int depth = 3;
+            int depth = 5;
 
             if (token == "depth")
                 iss >> depth;
